@@ -1,3 +1,196 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "john@example.com",
+      "password": "$2a$10$BXXCwfMRsxSQPPxQrWJn5e6C3YZsLZkhWmVsclyBZSh.In/PvTppG",
+      "username": "John Doe",
+      "id": 1
+    },
+    {
+      "email": "alex@example.com",
+      "password": "$2a$10$GfKz5RMmNu2GKFTD4bTcm.f.1lUTnPpZkcgPkuUY/08OYj1qsc/7C",
+      "username": "Alex Walker",
+      "id": 2
+    },
+    {
+      "email": "emily@example.com",
+      "password": "$2a$10$B9B1W0OU9GnKcvYD394bAuzsz/QKXFvS52PboA.bjBlySiE7R8vQm",
+      "username": "Emily Owen",
+      "id": 3
+    },
+    {
+      "email": "alison@example.com",
+      "password": "$2a$10$eqprjHTSdEJkr.QOMa/tgui6Y/hkrV8O1OtY9bpzNL3kJU58oJNMm",
+      "username": "Alison Payne",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "title": "Design",
+      "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "email": "john@example.com",
+      "date": 1670748954806,
+      "members": [
+        {
+          "email": "john@example.com",
+          "username": "John Doe",
+          "id": 1
+        },
+        {
+          "email": "emily@example.com",
+          "password": "$2a$10$B9B1W0OU9GnKcvYD394bAuzsz/QKXFvS52PboA.bjBlySiE7R8vQm",
+          "username": "Emily Owen",
+          "id": 3
+        },
+        {
+          "email": "alison@example.com",
+          "password": "$2a$10$eqprjHTSdEJkr.QOMa/tgui6Y/hkrV8O1OtY9bpzNL3kJU58oJNMm",
+          "username": "Alison Payne",
+          "id": 4
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "Development",
+      "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "email": "john@example.com",
+      "date": 1670748961958,
+      "members": [
+        {
+          "email": "john@example.com",
+          "username": "John Doe",
+          "id": 1
+        },
+        {
+          "email": "alex@example.com",
+          "password": "$2a$10$GfKz5RMmNu2GKFTD4bTcm.f.1lUTnPpZkcgPkuUY/08OYj1qsc/7C",
+          "username": "Alex Walker",
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "Marketing",
+      "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "email": "john@example.com",
+      "date": 1670748968429,
+      "members": [
+        {
+          "email": "john@example.com",
+          "username": "John Doe",
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "Writing",
+      "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "email": "john@example.com",
+      "date": 1670748973302,
+      "members": [
+        {
+          "email": "john@example.com",
+          "username": "John Doe",
+          "id": 1
+        },
+        {
+          "email": "alison@example.com",
+          "password": "$2a$10$eqprjHTSdEJkr.QOMa/tgui6Y/hkrV8O1OtY9bpzNL3kJU58oJNMm",
+          "username": "Alison Payne",
+          "id": 4
+        },
+        {
+          "email": "emily@example.com",
+          "password": "$2a$10$B9B1W0OU9GnKcvYD394bAuzsz/QKXFvS52PboA.bjBlySiE7R8vQm",
+          "username": "Emily Owen",
+          "id": 3
+        },
+        {
+          "email": "alex@example.com",
+          "password": "$2a$10$GfKz5RMmNu2GKFTD4bTcm.f.1lUTnPpZkcgPkuUY/08OYj1qsc/7C",
+          "username": "Alex Walker",
+          "id": 2
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "projects": [
+    {
+      "team": "Design",
+      "title": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "status": "doing",
+      "timestamp": 1670749796538,
+      "author": {
+        "email": "john@example.com",
+        "username": "John Doe",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "team": "Development",
+      "title": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "status": "backlog",
+      "timestamp": 1670749805143,
+      "author": {
+        "email": "john@example.com",
+        "username": "John Doe",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "team": "Writing",
+      "title": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "status": "backlog",
+      "timestamp": 1670749819600,
+      "author": {
+        "email": "john@example.com",
+        "username": "John Doe",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "team": "Marketing",
+      "title": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "status": "done",
+      "timestamp": 1670749835886,
+      "author": {
+        "email": "john@example.com",
+        "username": "John Doe",
+        "id": 1
+      },
+      "id": 4
+    },
+    {
+      "team": "Development",
+      "title": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "status": "review",
+      "timestamp": 1670749927085,
+      "author": {
+        "email": "john@example.com",
+        "username": "John Doe",
+        "id": 1
+      },
+      "id": 5
+    },
+    {
+      "team": "Marketing",
+      "title": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "status": "backlog",
+      "timestamp": 1670749935989,
+      "author": {
+        "email": "john@example.com",
+        "username": "John Doe",
+        "id": 1
+      },
+      "id": 6
+    }
+  ]
 }
